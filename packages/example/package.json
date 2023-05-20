@@ -1,5 +1,5 @@
 {
-    "name": "@gameastic/example",
+    "name": "pkg-pixi-grid-example",
     "version": "1.0.3",
     "license": "MIT",
     "source": "index.html",
@@ -12,7 +12,7 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "@gameastic/lib1": "*",
-        "parcel": "^2.6.2"
+        "@gameastic/pixi-grid": "*",
+        "parcel": "^2.8.3"
     }
 }

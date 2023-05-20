@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/%40gameastic%2Fmonorepo-lib-template.svg)](https://badge.fury.io/js/%40gameastic%2Fmonorepo-lib-template)
+[![npm version](https://badge.fury.io/js/%40gameastic%pkg-pixi-grid.svg)](https://badge.fury.io/js/%40gameastic%pkg-pixi-grid)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-# Monorepo Lib Template
+# Package Pixi Grid
