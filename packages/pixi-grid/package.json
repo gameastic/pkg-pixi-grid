@@ -18,8 +18,12 @@
         "url": "https://github.com/gameastic/pixi-grid/issues"
     },
     "keywords": [
-        "key1",
-        "key2"
+        "pixi-grid",
+        "pixijs-grid",
+        "pixijs",
+        "pixi.js",
+        "pixi",
+        "grid"
     ],
     "homepage": "https://github.com/gameastic/pixi-grid#readme",
     "scripts": {
