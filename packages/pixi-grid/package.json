@@ -5,7 +5,7 @@
     "source": "src/index.ts",
     "main": "dist/index.js",
     "author": "https://github.com/gameastic",
-    "description": "Some description for this lib",
+    "description": "Grid System for PixiJS",
     "private": false,
     "files": [
         "dist/**/*"

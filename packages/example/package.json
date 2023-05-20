@@ -5,7 +5,7 @@
     "source": "index.html",
     "main": "dist/index.js",
     "author": "https://github.com/gameastic",
-    "description": "Example for Lego",
+    "description": "Example for Pixi Grid",
     "private": true,
     "scripts": {
         "start": "rimraf dist && parcel --port 8080"
