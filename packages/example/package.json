@@ -1,5 +1,5 @@
 {
-    "name": "pkg-pixi-grid-example",
+    "name": "example",
     "version": "1.0.3",
     "license": "MIT",
     "source": "index.html",
@@ -8,11 +8,13 @@
     "description": "Example for Pixi Grid",
     "private": true,
     "scripts": {
-        "start": "rimraf dist && parcel --port 8080"
+        "start": "parcel --port 8080 --cache-dir .parcel-cache"
     },
     "dependencies": {},
     "devDependencies": {
         "@gameastic/pixi-grid": "*",
-        "parcel": "^2.8.3"
+        "parcel": "^2.8.3",
+        "parcel-reporter-static-files-copy": "^1.5.0",
+        "parcel-reporter-clean-dist": "^1.0.4"
     }
 }

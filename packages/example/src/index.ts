@@ -1,7 +1,4 @@
 import { Application, Assets } from 'pixi.js';
-import duck from '../assets/duck.png';
-import parrot from '../assets/parrot.png';
-import pixel from '../assets/pixel.png';
 import { View } from './view';
 
 window.addEventListener('load', () => {
@@ -9,9 +6,9 @@ window.addEventListener('load', () => {
         public constructor() {
             super({ resizeTo: window, backgroundColor: 0xcdcdcd, hello: true });
 
-            Assets.add('duck', duck);
-            Assets.add('parrot', parrot);
-            Assets.add('pixel', pixel);
+            Assets.add('duck', './images/duck.png');
+            Assets.add('parrot', './images/parrot.png');
+            Assets.add('pixel', './images/pixel.png');
 
             void Assets.load(['duck', 'parrot', 'pixel']).then(() => {
                 this.stage.addChild(new View());
