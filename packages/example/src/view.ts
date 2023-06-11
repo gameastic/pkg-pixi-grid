@@ -41,8 +41,8 @@ class DuckGroup extends Container implements ICellContent {
     public constructor() {
         super();
 
-        const duck1 = Sprite.from('duck');
-        const duck2 = Sprite.from('duck');
+        const duck1 = Sprite.from('duck.png');
+        const duck2 = Sprite.from('duck.png');
 
         duck1.anchor.set(-2, 2);
         duck2.anchor.set(2, -2);
@@ -57,8 +57,8 @@ class ParrotGroup extends Container implements ICellContent {
     public constructor() {
         super();
 
-        const parrot1 = Sprite.from('parrot');
-        const parrot2 = Sprite.from('parrot');
+        const parrot1 = Sprite.from('parrot.png');
+        const parrot2 = Sprite.from('parrot.png');
 
         parrot1.position.set(-140, 0);
         parrot2.position.set(140, 0);
@@ -71,7 +71,7 @@ class ParrotGroup extends Container implements ICellContent {
 
 class RectGroup extends Sprite {
     public constructor() {
-        super(Texture.from('pixel'));
+        super(Texture.from('pixel.png'));
     }
 }
 

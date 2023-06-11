@@ -6,17 +6,19 @@ window.addEventListener('load', () => {
         public constructor() {
             super({ resizeTo: window, backgroundColor: 0xcdcdcd, hello: true });
 
-            Assets.add('duck', './images/duck.png');
-            Assets.add('parrot', './images/parrot.png');
-            Assets.add('pixel', './images/pixel.png');
-
-            void Assets.load(['duck', 'parrot', 'pixel']).then(() => {
+            void this.init().then(() => {
                 this.stage.addChild(new View());
             });
+        }
+
+        public async init(): Promise<void> {
+            await Assets.init({ basePath: 'assets' });
+            await Assets.load(['duck.png', 'parrot.png', 'pixel.png']);
         }
     }
 
     window.game = new Game();
-    // @ts-expect-error
+
+    // @ts-expect-error game.view is canvas type
     document.body.appendChild(window.game.view);
 });
